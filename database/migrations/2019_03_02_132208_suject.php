@@ -16,8 +16,8 @@ class Suject extends Migration
       Schema::create('sujects', function (Blueprint $table) {
         $table->increments('id');
         $table->string('title');
-        $table->string('description');
-        $table->boolean('anonyme');
+        $table->string('description')->nullable();
+        $table->boolean('anonyme')->default(false);
         $table->integer('user_id')->unsigned();
         $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
         $table->timestamps();

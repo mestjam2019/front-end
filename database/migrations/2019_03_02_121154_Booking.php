@@ -17,7 +17,7 @@ class Booking extends Migration
         $table->increments('id');
         $table->date('date_booking');
         $table->time('time');
-        $table->boolean('statut');
+        $table->boolean('statut')->default(false);
         $table->integer('user_id')->unsigned();
         $table->integer('specialiste_id')->unsigned();
         $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');

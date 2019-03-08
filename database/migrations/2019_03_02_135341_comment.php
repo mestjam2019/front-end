@@ -16,7 +16,7 @@ class Comment extends Migration
       Schema::create('comments', function (Blueprint $table) {
         $table->increments('id');
         $table->string('content');
-        $table->boolean('anonyme');
+        $table->boolean('anonyme')->default(false);
         $table->integer('user_id')->unsigned();
         $table->integer('suject_id')->unsigned();
         $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
