@@ -289,6 +289,7 @@ class ComposerStaticInita03d408bd3f937c488fc0b2c53a8e092
     );
 
     public static $classMap = array (
+        'App\\BookModel' => __DIR__ . '/../..' . '/app/BookModel.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\AppointmentController' => __DIR__ . '/../..' . '/app/Http/Controllers/AppointmentController.php',
@@ -296,6 +297,7 @@ class ComposerStaticInita03d408bd3f937c488fc0b2c53a8e092
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
+        'App\\Http\\Controllers\\BookController' => __DIR__ . '/../..' . '/app/Http/Controllers/BookController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
@@ -323,6 +325,7 @@ class ComposerStaticInita03d408bd3f937c488fc0b2c53a8e092
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Categorie' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_120306_categorie.php',
+        'CategoriesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoriesTableSeeder.php',
         'Comment' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_135341_comment.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
@@ -2779,6 +2782,8 @@ class ComposerStaticInita03d408bd3f937c488fc0b2c53a8e092
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
         'Specialiste' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_114805_Specialiste.php',
         'SpecialisteCategorie' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_185806_specialiste_categorie.php',
+        'SpecialistesCategoriesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/SpecialistesCategoriesTableSeeder.php',
+        'SpecialistesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/SpecialistesTableSeeder.php',
         'Step' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_140023_step.php',
         'Suject' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_132208_suject.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
@@ -3388,7 +3393,7 @@ class ComposerStaticInita03d408bd3f937c488fc0b2c53a8e092
         'Topic' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_133741_topic.php',
         'Training' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_134501_training.php',
         'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
-        'UpdateBookingTable' => __DIR__ . '/../..' . '/database/migrations/2019_03_02_204105_update_booking_table.php',
+        'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',

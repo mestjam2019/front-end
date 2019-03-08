@@ -15,8 +15,8 @@ class Step extends Migration
     {
       Schema::create('steps', function (Blueprint $table) {
         $table->increments('id');
-        $table->string('name');
-        $table->string('description');
+        $table->string('name')->nullable();
+        $table->string('description')->nullable();
         $table->integer('number');
         $table->integer('topic_id')->unsigned();
         $table->integer('badge_id')->unsigned();

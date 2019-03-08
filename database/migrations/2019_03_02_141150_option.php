@@ -16,7 +16,7 @@ class Option extends Migration
       Schema::create('options', function (Blueprint $table) {
         $table->increments('id');
         $table->string('name');
-        $table->boolean('answers');
+        $table->boolean('answers')->default(false);
         $table->integer('step_id')->unsigned();
         $table->foreign('step_id')->references('id')->on('steps')->onDelete('cascade')->onUpdate('cascade');
         $table->timestamps();

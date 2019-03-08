@@ -15,13 +15,13 @@ class Specialiste extends Migration
     {
       Schema::create('specialistes', function (Blueprint $table) {
         $table->increments('id');
-        $table->string('firstName');
-        $table->string('lastName');
+        $table->string('firstname');
+        $table->string('lastname');
         $table->string('title');
-        $table->string('Adress');
+        $table->string('address')->nullable();
         $table->string('email');
-        $table->string('contact');
-        $table->string('image');
+        $table->string('contact')->nullable();
+        $table->string('image')->nullable();
         $table->timestamps();
         });
     }
