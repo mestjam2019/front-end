@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="Find easily a doctor and book online an appointment">
 	<meta name="author" content="Ansonika">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 	<title>JAM - @yield('title')</title>
 
 	<!-- Favicons-->
@@ -126,6 +128,8 @@
 	<script src="/assets/js/markerclusterer.js"></script>
     <script src="/assets/js/map_listing.js"></script>
     <script src="/assets/js/infobox.js"></script>
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
     <!-- SPECIFIC SCRIPTS -->
     <script src="/assets/js/bootstrap-datepicker.js"></script>
 	<script>
@@ -137,25 +141,14 @@
 			weekStart: 1,
 			format: "yyyy-mm-dd",
 			datesDisabled: ["2017/10/20", "2017/11/21", "2017/12/21", "2018/01/21", "2018/02/21", "2018/03/21"],
-<<<<<<< HEAD
-		});
-		$('#calendar').datepicker().on('changeDate', function() {
-		            let nb = $('#calendar').datepicker('getDate');
-								nb =  nb.getFullYear() + '/' + (nb.getMonth() + 1) + '/' + nb.getDate();
-
-		            $('input[type=hidden][id=my_hidden_input]').val(nb);
-		        });
-=======
-        });
-
-        $('#calendar').datepicker().on('changeDate', function(e) {
-            // 'e' here contains the extra attributes
-            let nb = $('#calendar').datepicker('getDate');
-            alert(nb);
-            // console.log(nb);
         });
         
->>>>>>> ef82e072d657f3dbb0face3675c6ec92412417ae
+		$('#calendar').datepicker().on('changeDate', function(e) {
+            let nb = $('#calendar').datepicker('getDate');
+            nb =  nb.getFullYear() + '/' + (nb.getMonth() + 1) + '/' + nb.getDate();
+            alert(nb);
+            $('input[type=hidden][id=my_hidden_input]').val(nb);
+        });
 	</script>
 
 </body>
