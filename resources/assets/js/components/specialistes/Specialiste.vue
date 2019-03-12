@@ -6,7 +6,7 @@
           <div class="box_list wow fadeIn">
             <a href="#0" class="wish_bt"></a>
             <figure>
-              <a href="#">
+              <a :href="`detail-portfolio`">
                 <img :src="`/images/${specialiste.image}`" class="img-fluid" alt>
                 <div class="preview">
                   <span>Read more</span>
@@ -50,7 +50,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">Book now</a>
+                <a :href="`detail-portfolio`">Book now</a>
               </li>
             </ul>
           </div>

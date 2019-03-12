@@ -14,8 +14,10 @@
     							</div>
     							<div class="summary">
     								<ul>
-    									<li>Date: <strong class="float-right">{{$data->date_booking}}</strong></li>
-    									<li>Time: <strong class="float-right">{{$data->time}}</strong></li>
+    									<li>Date: <strong class="float-right">13/03/2019</strong></li>
+    									<!-- <li>Date: <strong class="float-right">{{$data->date_booking}}</strong></li> -->
+    									<li>Time: <strong class="float-right">09am</strong></li>
+    									<!-- <li>Time: <strong class="float-right">{{$data->time}}</strong></li> -->
     									<li>Dr. Name: <strong class="float-right">Dr. julia Jhones</strong></li>
     								</ul>
     							</div>

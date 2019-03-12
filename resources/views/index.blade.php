@@ -6,7 +6,7 @@
     <main>
         <div class="hero_home version_2">
             <div class="content">
-                <h3>Find a specialiste!</h3>
+                <h3>Find a specialist!</h3>
                 <p>
 
                 </p>
@@ -23,7 +23,7 @@
                             </li>
                             <li>
                                 <input type="radio" id="doctor" name="radio_search" value="doctor">
-                                <label for="doctor">Specialiste</label>
+                                <label for="doctor">Specialist</label>
                             </li>
                             <li>
                                 <input type="radio" id="clinic" name="radio_search" value="clinic">

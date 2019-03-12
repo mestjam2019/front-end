@@ -69,16 +69,10 @@
                                     <a href="{{ url('/') }}">Home</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/portfolio') }}">Portfolio</a>
+                                    <a href="{{ url('/portfolio') }}">Professionals</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('consultation') }}">Consultation</a>
-                                </li>
-                                <li>
-                                    <a href="Webinar.html">Webinar</a>
-                                </li>
-                                <li>
-                                    <a href="{{ url('/trainning/badges') }}">Trainning</a>
+                                    <a href="{{ url('/trainning/badges') }}">Learn</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('/contact') }}">Contact</a>
@@ -146,7 +140,7 @@
 		$('#calendar').datepicker().on('changeDate', function(e) {
             let nb = $('#calendar').datepicker('getDate');
             nb =  nb.getFullYear() + '/' + (nb.getMonth() + 1) + '/' + nb.getDate();
-            alert(nb);
+            // alert(nb);
             $('input[type=hidden][id=my_hidden_input]').val(nb);
         });
 	</script>
