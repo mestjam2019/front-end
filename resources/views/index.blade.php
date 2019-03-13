@@ -6,11 +6,10 @@
     <main>
         <div class="hero_home version_2">
             <div class="content">
-                <h3>Find a specialist!</h3>
-                <p>
-
-                </p>
-                <form method="post" action="list.html">
+                <h3>Find a specialist</h3>
+                <!-- <p>Best plateforme to find and meet specialist very easily</p> -->
+                <form method="get" action="{{ route('portfolio') }}">
+                {{ csrf_field() }}
                     <div id="custom-search-input">
                         <div class="input-group">
                             <input type="text" class=" search-query" placeholder="Ex. Name, Specialization ....">

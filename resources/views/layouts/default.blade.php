@@ -9,10 +9,10 @@
 	<meta name="author" content="Ansonika">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-	<title>JAM - @yield('title')</title>
+	<title>Jade - @yield('title')</title>
 
 	<!-- Favicons-->
-	<link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="/assets/img/logo-main.png" type="image/x-icon">
 	<!-- <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
 	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
 	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-6">
                         <div id="logo_home">
-                            <img src="/assets/img/logo.png" alt="">
+                            <img src="/assets/img/logo-main.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-9 col-6">

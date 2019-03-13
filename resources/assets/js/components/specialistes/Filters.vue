@@ -4,41 +4,37 @@
       <ul class="clearfix">
         <li>
           <h6>Type</h6>
-          <!-- <div class="switch-field">
-                        <input type="radio" id="STI" name="type_patient" checked>
-                        <label for="STI">STI Tests</label>
-                        <input type="radio" id="Contraceptive" name="type_patient">
-                        <label for="Contraceptive">Contraceptive counselling</label>
-                        <input type="radio" id="Menstruation" name="type_patient" >
-                        <label for="Menstruation">Menstruation </label>
-                        <input type="radio" id="Cancer" name="type_patient">
-                        <label for="Cancer">Cancer</label>
-                        <input type="radio" id="Infections" name="type_patient">
-                        <label for="Infections">Cancer</label>
-          </div>-->
-          <nav aria-label class="add_top_20">
+          <div class="switch-field">
+            <input type="radio" id="STI" name="type_patient">
+            <label for="STI">STI Tests</label>
+            <input type="radio" id="Contraceptive" name="type_patient">
+            <label for="Contraceptive">Contraceptive counselling</label>
+            <input type="radio" id="Menstruation" name="type_patient">
+            <label for="Menstruation">Menstruation</label>
+            <input type="radio" id="Cancer" name="type_patient">
+            <label for="Cancer">infections</label>
+            <input type="radio" id="Infections" name="type_patient" checked>
+            <label for="Infections">Cancer</label>
+          </div>
+          <!-- <nav aria-label class="add_top_20">
             <ul class="pagination pagination-sm">
               <li class="page-item active">
                 <a class="page-link" href>STI Tests</a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="#">Contraceptive</a>
-                <!-- <a class="page-link" href="{{ url('contraceptive') }}">Contraceptive</a> -->
               </li>
               <li class="page-item">
                 <a class="page-link" href="#">Menstruation</a>
-                <!-- <a class="page-link" href="{{ url('menstruation') }}">Menstruation</a> -->
               </li>
               <li class="page-item">
                 <a class="page-link" href="#">Infections</a>
-                <!-- <a class="page-link" href="{{ url('infections') }}">Infections</a> -->
               </li>
               <li class="page-item">
                 <a class="page-link" href="#">Cancer</a>
-                <!-- <a class="page-link" href="{{ url('cancer') }}">Cancer</a> -->
               </li>
             </ul>
-          </nav>
+          </nav>-->
         </li>
         <li>
           <h6>Sort by</h6>

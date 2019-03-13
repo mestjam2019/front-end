@@ -23,6 +23,6 @@ class BookController extends Controller
     $book->statut = 0;
     $book->specialiste_id=1;
     $book->save();
-    return redirect('booking');
+    return redirect('confirm');
   }
 }

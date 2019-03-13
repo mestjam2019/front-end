@@ -10,15 +10,13 @@
           <div class="box_general_3 booking">
     						<form>
     							<div class="title">
-    								<h3>Your booking</h3>
+    								<h3>Your booking validated</h3>
     							</div>
     							<div class="summary">
     								<ul>
-    									<li>Date: <strong class="float-right">13/03/2019</strong></li>
-    									<!-- <li>Date: <strong class="float-right">{{$data->date_booking}}</strong></li> -->
-    									<li>Time: <strong class="float-right">09am</strong></li>
-    									<!-- <li>Time: <strong class="float-right">{{$data->time}}</strong></li> -->
-    									<li>Dr. Name: <strong class="float-right">Dr. julia Jhones</strong></li>
+    									<li>Date: <strong class="float-right">17/03/2019</strong></li>
+    									<li>Time: <strong class="float-right">10.00am</strong></li>
+    									<li>Dr. Name: <strong class="float-right">Dr. Miss Kasey McDermott Astrid Berge</strong></li>
     								</ul>
     							</div>
     							<!-- <ul class="treatments checkout clearfix">

@@ -49730,10 +49730,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -49762,51 +49758,54 @@ var staticRenderFns = [
           _c("li", [
             _c("h6", [_vm._v("Type")]),
             _vm._v(" "),
-            _c(
-              "nav",
-              { staticClass: "add_top_20", attrs: { "aria-label": "" } },
-              [
-                _c("ul", { staticClass: "pagination pagination-sm" }, [
-                  _c("li", { staticClass: "page-item active" }, [
-                    _c("a", { staticClass: "page-link", attrs: { href: "" } }, [
-                      _vm._v("STI Tests")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "page-item" }, [
-                    _c(
-                      "a",
-                      { staticClass: "page-link", attrs: { href: "#" } },
-                      [_vm._v("Contraceptive")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "page-item" }, [
-                    _c(
-                      "a",
-                      { staticClass: "page-link", attrs: { href: "#" } },
-                      [_vm._v("Menstruation")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "page-item" }, [
-                    _c(
-                      "a",
-                      { staticClass: "page-link", attrs: { href: "#" } },
-                      [_vm._v("Infections")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "page-item" }, [
-                    _c(
-                      "a",
-                      { staticClass: "page-link", attrs: { href: "#" } },
-                      [_vm._v("Cancer")]
-                    )
-                  ])
-                ])
-              ]
-            )
+            _c("div", { staticClass: "switch-field" }, [
+              _c("input", {
+                attrs: { type: "radio", id: "STI", name: "type_patient" }
+              }),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "STI" } }, [_vm._v("STI Tests")]),
+              _vm._v(" "),
+              _c("input", {
+                attrs: {
+                  type: "radio",
+                  id: "Contraceptive",
+                  name: "type_patient"
+                }
+              }),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "Contraceptive" } }, [
+                _vm._v("Contraceptive counselling")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                attrs: {
+                  type: "radio",
+                  id: "Menstruation",
+                  name: "type_patient"
+                }
+              }),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "Menstruation" } }, [
+                _vm._v("Menstruation")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                attrs: { type: "radio", id: "Cancer", name: "type_patient" }
+              }),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "Cancer" } }, [_vm._v("infections")]),
+              _vm._v(" "),
+              _c("input", {
+                attrs: {
+                  type: "radio",
+                  id: "Infections",
+                  name: "type_patient",
+                  checked: ""
+                }
+              }),
+              _vm._v(" "),
+              _c("label", { attrs: { for: "Infections" } }, [_vm._v("Cancer")])
+            ])
           ]),
           _vm._v(" "),
           _c("li", [
